@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: grey;
+}
+/* span {
+    color: red; */
+
+.container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: darkgray;
+    border-radius: 1rem;
+    box-shadow: rgb(63, 74, 85) 0px 50px 60px -10px;
+}
+input {
+    outline: none;
+    border: none;
+    padding: 1rem;
+}
+button {
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    background: rgb(164, 68, 68);
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color:grey;
+}
